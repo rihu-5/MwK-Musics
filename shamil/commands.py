@@ -73,8 +73,8 @@ async def start(client, message):
                 InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
                 InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/mwksongs')
+                InlineKeyboardButton('🤖 Developer', url='@Rihu_mone'),
+                InlineKeyboardButton('series ', url='@Seriesland4U_Netflix_HBO')
                 ],[
                 InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
     ]
@@ -94,9 +94,9 @@ async def show_help(client, message):
                 InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
                 InlineKeyboardButton('🎧 Songs', url='https://t.me/mwksongs')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('📜 Source Code 📜', url='https://t.me/BWF_ofc/2'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_photo(photo="https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg", caption=HELP, reply_markup=reply_markup)
+    await message.reply_photo(photo="https://telegra.ph/file/24e1d8b40832a2b2fafd4.jpg", caption=HELP, reply_markup=reply_markup)
     await message.delete()
